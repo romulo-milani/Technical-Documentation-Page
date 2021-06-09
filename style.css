@@ -21,7 +21,7 @@ ul {
 }
 
 #navbar {
-    background-color: rgb(252, 252, 230);
+    background-color: rgba(252, 252, 230, 1);
     
     position: fixed;
     
@@ -38,6 +38,8 @@ ul {
 
     border-right: solid;
     border-color: grey;
+
+    z-index: 1;
 
 }
 
@@ -59,19 +61,41 @@ ul {
 }
 
 #main-doc {
-    position: relative;
-    margin-left: 390px;
+    position: absolute;
+    margin-left: 420px;
+    margin-right: 40px;
     padding: 9px;
     line-height: 25px;
+    
     
 }
 h2 {
     font-size: 25px;
-    margin-left: -20px;
+    margin-left: -40px;
 }
 
 p {
     font-size: 14px;
+}
+
+.spaceForUl {
+    margin-left: 100px;
+}
+
+
+.section-div {
+    background-color: rgb(245, 238, 238);
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.psection-div {
+    margin-left: 20px;
+}
+
+.spaceForLi {
+    margin-left: 80px;
+    list-style: circle;
 }
 
 
